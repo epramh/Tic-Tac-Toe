@@ -1,0 +1,162 @@
+Microsoft Windows [version 10.0.19044.1288]
+(c) Microsoft Corporation. Tous droits réservés.
+
+D:\Doss\CNTEMAD\Info\Pr\My-app>npx create-react-app my-app
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in D:\Doss\CNTEMAD\Info\Pr\My-app\my-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+Terminer le programme de commandes (O/N) ? o
+
+D:\Doss\CNTEMAD\Info\Pr\My-app>cd /?
+Affiche le nom ou change le répertoire en cours.
+
+CHDIR [/D] [lecteur:][chemin]
+CHDIR [..]
+CD [/D] [lecteur:][chemin]
+CD [..]
+
+  ..   Signifie que vous voulez vous placer sur le répertoire parent.
+
+Entrez CD lecteur: pour afficher le répertoire en cours sur le lecteur.
+Entrez CD sans paramètres pour afficher le lecteur et le répertoire en cours.
+
+Utilisez le commutateur /D pour modifier le lecteur actuel en plus de la
+modification du répertoire actuel pour un lecteur.
+
+Si les extensions de commandes sont activées, la commande CHDIR change comme
+suit :
+
+La chaîne du répertoire en cours est convertie pour utiliser la même casse que
+celle du disque. Donc, CD C:\TEMP fixera en fait le répertoire en cours à
+C:\Temp si c’est la casse utilisée sur le disque.
+
+La commande CHDIR ne traite pas les espaces comme des séparateurs ;
+il est donc possible d’utiliser CD pour aller dans un sous-répertoire dont le
+nom contient des espaces sans entourer ce nom de guillemets. Par exemple :
+
+    cd \winnt\profiles\NomUtilisateur\programmes\menu démarrer
+
+est identique à :
+
+    cd "\winnt\profiles\NomUtilisateur\programmes\menu démarrer"
+
+qui est ce que vous devez entrer si les extensions sont désactivées.
+
+D:\Doss\CNTEMAD\Info\Pr\My-app>cd \Pr
+Le chemin d’accès spécifié est introuvable.
+
+D:\Doss\CNTEMAD\Info\Pr\My-app>cd ..
+
+D:\Doss\CNTEMAD\Info\Pr>npm update
+
+up to date, audited 1 package in 375ms
+
+found 0 vulnerabilities
+
+D:\Doss\CNTEMAD\Info\Pr>npx create-react-app my-app
+
+Creating a new React app in D:\Doss\CNTEMAD\Info\Pr\my-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1392 packages in 9m
+
+212 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 56 packages in 30s
+
+212 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1448 packages in 8s
+
+212 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created my-app at D:\Doss\CNTEMAD\Info\Pr\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  npm start
+
+Happy hacking!
+
+D:\Doss\CNTEMAD\Info\Pr>cd my-app
+
+D:\Doss\CNTEMAD\Info\Pr\my-app>cd src
+
+D:\Doss\CNTEMAD\Info\Pr\my-app\src>del*
+'del*' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+D:\Doss\CNTEMAD\Info\Pr\my-app\src>del**
+'del**' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+D:\Doss\CNTEMAD\Info\Pr\my-app\src>del /?
+Supprime un ou plusieurs fichiers.
+
+DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+
+  names         Spécifie une liste d'un ou plusieurs fichiers ou répertoires.
+                Les caractères génériques peuvent être utilisés pour supprimer plusieurs fichiers. Si un
+                répertoire est spécifié, tous les fichiers du répertoire
+                seront supprimés.
+
+  /P            Demande une confirmation avant de supprimer chaque fichier.
+  /F            Force la suppression des fichiers en lecture seule.
+  /S            Supprime les fichiers spécifiés de tous les sous-répertoires.
+  /Q            Mode silencieux, ne demande pas l'autorisation de supprimer sur le caractère générique global
+  /A            Sélectionne les fichiers à supprimer en fonction des attributs
+  attributs    R  Fichiers en lecture seule            S  Fichiers système
+                H  fichiers cachés               A  Fichiers prêts pour l'archivage
+                I  Pas des fichiers au contenu indexé  L  Points d'analyse
+                O  Fichiers hors connexion              -  Préfixe de négation
+
+Si les extensions de commandes sont activées, DEL et ERASE sont modifiées
+comme suit :
+La logique d’affichage du commutateur /S est inversée. Elle
+n’affiche que les fichiers supprimés, et pas ceux qui n’ont pas été trouvés.
+
+D:\Doss\CNTEMAD\Info\Pr\my-app\src>
